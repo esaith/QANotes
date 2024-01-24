@@ -2,5 +2,5 @@
 
 ## Acceptance Criteria
 Precondition/Action: When no minimaps exist.
-Action: Do something, if applicable
-PostCondition: THEN Y should occur
+<br> Action: Do something, if applicable
+<br> PostCondition: THEN Y should occur
