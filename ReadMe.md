@@ -11,8 +11,9 @@ Precondition/Action: When no minimaps exist.
 <br> THEN the hotspot image shows
 
 ## Testing Notes
-Steps I took to verify enhancement is complete or bug is fixed.
-Step 1. I did this
-Step 2. I did that.
-Step 3. I set up X
-Step 4. Now tested Y because X is now available.
+<br>Steps I took to verify enhancement is complete or bug is fixed.
+<br>
+<br>Step 1. I did this
+<br>Step 2. I did that.
+<br>Step 3. I set up X
+<br>Step 4. Now tested Y because X is now available.
