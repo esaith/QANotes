@@ -10,6 +10,8 @@ Precondition/Action: When no minimaps exist.
 <br> AND the user select a hotspot
 <br> THEN the hotspot image shows
 
+<br> Think of ways of how it should function (positive testing). Think of ways of how it should not function (negative testing)
+
 ## Testing Notes
 <br>Steps I took to verify enhancement is complete or bug is fixed.
 <br>
