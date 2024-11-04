@@ -20,8 +20,46 @@ Precondition/Action: When no minimaps exist.
 <br>Step 3. I set up X
 <br>Step 4. Now tested Y because X is now available.
 
+<br>Bug Fix
 
-How can I verify the action worked or is working as expected.
+<br>What is the bug?
+<br>-- Learn its history and functionality. If you don't know the product or enhancement then it becomes difficult to test.
+
+<br>Understand requirements.
+
+<br>Reproducing
+<br>Can I reproduce this in live or the environment where the issue is occurring?
+
+<br>Verifying Fix
+<br>Can I verify bug is fixed in the testing environment (RT, UAT)
+
+<br>Regression
+<br>Can I verify the fix did not affect anything else on the page or app? Does all other functionality within the app still work? How about similar components within the page or app still work as expected.
+<br>-- For example, if there is an issue in a popup modal, do other popup modals have a similar issue? Or making sure that after the fix, all other popups work as expected.
+<br>-- Check enhancement testing. 
+
+<br><br>Enhancement
+
+<br><br>Straight on case
+<br>Does the enhancement work as expected? Is all the functionality there and does it work within a reasonable amount of time? 
+<br>-- Is the UI/UX correct? Correct colors, buttons, sizing of components?
+
+<br><br>Button
+ <br>-- Does the button have good static look? (No action on button, no mouse events, no hover)
+ <br>-- Does button have good hover UI?
+ <br>-- Does button have good click UI?
+ <br>-- Does button have good disable UI?
+ <br>   -- Can button be disabled?
+ <br>	-- Can button be enabled?
+ <br>	-- Is there a way to break the disable when it shouldn't be disabled.
+<br>	-- Is ther a way to disable when its enabled?
+<br>-- Is the responsiveness of the button acceptable after clicking the button?
+  <br>  -- That is, an action may take a long time to complete but the button should appear to respond and end its action almost immediately. 
+  <br>  -- If a long action occurs, then the button should probably be disabled to prevent spamming of that button.	
+    
+
+<br><br><br>How can I verify the action worked or is working as expected.
+<br>
 
 # General Actions
   1. If action is taking longer than 500 ms (1/2 second), then should there be a loading spinner?
